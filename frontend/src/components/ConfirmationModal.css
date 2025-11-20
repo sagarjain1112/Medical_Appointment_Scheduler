@@ -1,0 +1,128 @@
+.confirmation-modal {
+  padding: 30px;
+  text-align: center;
+}
+
+.confirmation-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+  animation: scaleIn 0.5s ease;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.confirmation-modal h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.confirmation-message {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.confirmation-details {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.detail-section {
+  background: #f5f5ff;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border-left: 4px solid #667eea;
+}
+
+.detail-section h3 {
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.detail-item:last-child {
+  margin-bottom: 0;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #666;
+}
+
+.detail-value {
+  color: #333;
+  word-break: break-word;
+  text-align: right;
+  flex: 1;
+  margin-left: 10px;
+}
+
+.detail-value.code {
+  background: #667eea;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.confirmation-footer {
+  width: 100%;
+  padding-top: 20px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.confirmation-footer p {
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.new-booking-btn {
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.new-booking-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}

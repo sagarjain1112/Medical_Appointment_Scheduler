@@ -1,0 +1,113 @@
+{
+  "clinic": {
+    "name": "HealthCare Plus Clinic",
+    "phone": "+1-555-123-4567",
+    "email": "info@healthcareplus.com",
+    "website": "www.healthcareplus.com"
+  },
+  "location": {
+    "address": "123 Medical Center Drive, Suite 100",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10001",
+    "directions": "Located near the main hospital complex, easily accessible from the highway"
+  },
+  "parking": {
+    "available": true,
+    "type": "Free parking lot",
+    "spaces": "Ample parking available",
+    "instructions": "Park in the designated clinic lot on the east side of the building"
+  },
+  "hours": {
+    "monday": "9:00 AM - 5:00 PM",
+    "tuesday": "9:00 AM - 5:00 PM",
+    "wednesday": "9:00 AM - 5:00 PM",
+    "thursday": "9:00 AM - 5:00 PM",
+    "friday": "9:00 AM - 5:00 PM",
+    "saturday": "10:00 AM - 2:00 PM",
+    "sunday": "Closed"
+  },
+  "insurance": {
+    "accepted_providers": [
+      "Blue Cross Blue Shield",
+      "Aetna",
+      "Cigna",
+      "UnitedHealthcare",
+      "Medicare",
+      "Medicaid"
+    ],
+    "self_pay": true,
+    "payment_methods": [
+      "Credit Card",
+      "Debit Card",
+      "Cash",
+      "Insurance"
+    ]
+  },
+  "billing": {
+    "consultation_fee": "$150",
+    "followup_fee": "$75",
+    "physical_exam_fee": "$200",
+    "specialist_fee": "$250",
+    "cancellation_policy": "Free cancellation up to 24 hours before appointment",
+    "late_fee": "$25 for appointments cancelled less than 2 hours before"
+  },
+  "visit_preparation": {
+    "first_visit": [
+      "Arrive 15 minutes early",
+      "Bring valid ID and insurance card",
+      "Complete medical history form",
+      "Bring list of current medications"
+    ],
+    "followup_visit": [
+      "Arrive 10 minutes early",
+      "Bring insurance card",
+      "Bring any recent medical records"
+    ],
+    "physical_exam": [
+      "Wear comfortable, loose-fitting clothing",
+      "Arrive 15 minutes early",
+      "Bring medical history"
+    ]
+  },
+  "policies": {
+    "cancellation": "Cancellations must be made at least 24 hours in advance. Cancellations within 2 hours of appointment time may incur a $25 fee.",
+    "late_arrival": "Patients arriving more than 15 minutes late may be rescheduled at the clinic's discretion.",
+    "covid_protocol": "Masks are optional. Hand sanitizer available at entrance. Please inform staff of any COVID-19 symptoms.",
+    "privacy": "All patient information is kept confidential in accordance with HIPAA regulations."
+  },
+  "faq": [
+    {
+      "question": "What insurance do you accept?",
+      "answer": "We accept most major insurance providers including Blue Cross Blue Shield, Aetna, Cigna, UnitedHealthcare, Medicare, and Medicaid. We also accept self-pay patients."
+    },
+    {
+      "question": "How do I reschedule my appointment?",
+      "answer": "You can reschedule by calling us at +1-555-123-4567 or through our online portal. Please provide at least 24 hours notice."
+    },
+    {
+      "question": "What should I bring to my first visit?",
+      "answer": "Please bring a valid ID, insurance card, and any medical records from other providers. Arrive 15 minutes early to complete our medical history form."
+    },
+    {
+      "question": "Do you have parking?",
+      "answer": "Yes, we have free parking available in our lot on the east side of the building."
+    },
+    {
+      "question": "What are your business hours?",
+      "answer": "We are open Monday through Friday from 9:00 AM to 5:00 PM, and Saturday from 10:00 AM to 2:00 PM. We are closed on Sundays."
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "Cancellations must be made at least 24 hours in advance. Cancellations within 2 hours of appointment time may incur a $25 fee."
+    },
+    {
+      "question": "How much does a consultation cost?",
+      "answer": "A general consultation costs $150. Follow-up visits are $75, physical exams are $200, and specialist consultations are $250."
+    },
+    {
+      "question": "Do you offer telemedicine appointments?",
+      "answer": "Currently, we only offer in-person appointments. Please contact us for more information about future telemedicine options."
+    }
+  ]
+}

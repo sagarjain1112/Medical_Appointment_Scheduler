@@ -1,0 +1,77 @@
+{
+  "doctors": [
+    {
+      "id": "doc_001",
+      "name": "Dr. Sarah Johnson",
+      "specialty": "General Practitioner",
+      "bio": "Board-certified general practitioner with 15 years of experience",
+      "availability": {
+        "monday": ["09:00-17:00"],
+        "tuesday": ["09:00-17:00"],
+        "wednesday": ["09:00-12:00"],
+        "thursday": ["09:00-17:00"],
+        "friday": ["09:00-17:00"],
+        "saturday": ["10:00-14:00"]
+      },
+      "appointment_types": ["consultation", "followup", "physical"]
+    },
+    {
+      "id": "doc_002",
+      "name": "Dr. Michael Chen",
+      "specialty": "Cardiologist",
+      "bio": "Specialist in cardiovascular health with 20 years of experience",
+      "availability": {
+        "monday": ["10:00-16:00"],
+        "tuesday": ["10:00-16:00"],
+        "wednesday": ["10:00-16:00"],
+        "thursday": ["10:00-16:00"],
+        "friday": ["10:00-16:00"]
+      },
+      "appointment_types": ["consultation", "specialist"]
+    },
+    {
+      "id": "doc_003",
+      "name": "Dr. Emily Rodriguez",
+      "specialty": "Dermatologist",
+      "bio": "Expert in skin health and dermatological conditions",
+      "availability": {
+        "monday": ["09:00-17:00"],
+        "tuesday": ["09:00-17:00"],
+        "wednesday": ["09:00-17:00"],
+        "thursday": ["09:00-17:00"],
+        "friday": ["09:00-17:00"]
+      },
+      "appointment_types": ["consultation", "followup", "specialist"]
+    }
+  ],
+  "schedule": {
+    "2025-11-21": {
+      "doc_001": {
+        "booked_slots": ["09:00-09:30", "10:00-10:30", "14:00-14:30"],
+        "available": true
+      },
+      "doc_002": {
+        "booked_slots": ["10:00-10:30", "11:00-11:30"],
+        "available": true
+      },
+      "doc_003": {
+        "booked_slots": [],
+        "available": true
+      }
+    },
+    "2025-11-22": {
+      "doc_001": {
+        "booked_slots": ["09:00-09:30"],
+        "available": true
+      },
+      "doc_002": {
+        "booked_slots": ["10:00-10:30", "11:00-11:30", "13:00-13:30"],
+        "available": true
+      },
+      "doc_003": {
+        "booked_slots": ["09:00-09:30", "10:00-10:30"],
+        "available": true
+      }
+    }
+  }
+}

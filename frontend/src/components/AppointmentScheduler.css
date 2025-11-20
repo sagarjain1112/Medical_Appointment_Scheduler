@@ -1,0 +1,90 @@
+.scheduler-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.scheduler-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.scheduler-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.scheduler-header h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.scheduler-header p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.step-content {
+  padding: 30px;
+}
+
+.step-content h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.appointment-types {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.appointment-type-btn {
+  padding: 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.appointment-type-btn:hover {
+  border-color: #667eea;
+  background: #f5f5ff;
+  transform: translateY(-2px);
+}
+
+.type-label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.type-duration {
+  font-size: 12px;
+  color: #999;
+}
+
+.error-message {
+  background: #fee;
+  color: #c33;
+  padding: 12px 20px;
+  margin: 0;
+  border-left: 4px solid #c33;
+  font-size: 14px;
+}
+
+.success-message {
+  background: #efe;
+  color: #3c3;
+  padding: 12px 20px;
+  margin: 0;
+  border-left: 4px solid #3c3;
+  font-size: 14px;
+}
